@@ -1,0 +1,260 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+ body, h1, h2, h3, p, ul, li, img, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+.logo {
+    float: left;
+    display: inline-block;
+}
+.logo img {
+    height: 50px;
+    vertical-align: middle;
+}
+.logo span {
+    font-size: 24px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.nav {
+    float: right;
+    display: inline-block;
+    margin-right: 5%;
+}
+.nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+.dish {
+    width: 100%;
+    display: inline-block;
+    padding: 40px;
+    text-align: left;
+}
+.dish h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.dish p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+.dish button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.shop-now {
+    background-color: orange;
+}
+.contact-us {
+    background-color: black;
+}
+.dish img {
+    float: right;
+    height: 300px;
+    margin-top: -100px;
+    margin-right: 10%;
+}
+.services {
+    width: 100%;
+    display: inline-block;
+    padding: 40px;
+    text-align: center;
+}
+
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+   
+}
+.services p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.service-box {
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+.service-box img {
+    height: 80px;
+    margin-bottom: 20px;
+}
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.read-more {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.fresh-fruits {
+    width: 100%;
+    display: inline-block;
+    padding: 40px;
+    text-align: left;
+}
+.fresh-fruits h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fresh-fruits p {
+    font-size: 16px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.fruit-item {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.fruit-text {
+    width: 50%;
+    float: left;
+}
+.fruit-item img {
+    float: right;
+    height: 200px;
+}
+.fruit-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.fruit-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.buy-now {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+
+.testimonial {
+    width: 100%;
+    display: inline-block;
+    padding: 40px;
+    text-align: center;
+}
+.testimonial h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.testimonial p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.testimonial img {
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.testimonial h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.contact {
+    width: 100%;
+    display: inline-block;
+    padding: 40px;
+    text-align: left;
+}
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.contact form {
+    width: 50%;
+    float: left;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.contact textarea {
+    height: 100px;
+}
+.send {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.contact img {
+    float: right;
+    height: 300px;
+}
+.footer {
+    width: 100%;
+    padding: 40px;
+  
+}
+.footer-section {
+    width: 24%;
+    display: inline-block;
+    
+}
+.footer-section p{
+    width: 30%;
+    font-size: 14px;
+}
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    height: 30px;
+    margin-right: 10px;
+}
+.footer-section input {
+    width: 70%;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+.subscribe {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-weight: bold;
+}   
